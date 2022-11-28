@@ -1,6 +1,8 @@
 # gh-home
 
-GitHub CLI extension to checkout main and pull. Go home at the end of each branch.
+GitHub CLI extension to checkout main and pull.
+
+*:fallen_leaf: Go home at the end of each branch.*
 
 ## Installation
 
@@ -25,3 +27,4 @@ gh extension remove norwd/gh-home
 ## Usage
 
 Run `gh home` at any time to go home.
+
