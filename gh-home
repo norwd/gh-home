@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+set -e
+
+# Determine if an executable is in the PATH
+if ! type -p git >/dev/null; then
+	echo "git(1) not found on the system" >&2
+	exit 1
+fi
+
+# Change to repo root directory
+cd "$(git rev-parse --show-toplevel || echo ".")"
+
+# Determine and checkout default branch (e.g. main)
+git checkout "$(git rev-parse --abbrev-ref origin/HEAD | sed 's/^origin\///g')"
+
+# Pull latest changes
+git pull
+
