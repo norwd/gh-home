@@ -10,6 +10,12 @@ To install `gh-home` run the following command:
 gh extension install norwd/gh-home
 ```
 
+To upgrade `gh-home` run the following command:
+
+```sh
+gh extension upgrade
+```
+
 To uninstall `gh-home` run the following command:
 
 ```sh
