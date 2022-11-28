@@ -13,7 +13,7 @@ gh extension install norwd/gh-home
 To upgrade `gh-home` run the following command:
 
 ```sh
-gh extension upgrade
+gh extension upgrade norwd/gh-home
 ```
 
 To uninstall `gh-home` run the following command:
